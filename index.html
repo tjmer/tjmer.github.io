@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Tylers Portfolio site</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Welcome</h1>
+        <nav>
+            <p class="crumb"><a href="#about-me">About me</a></p>
+            <p class="crumb"><a href="#skills">Skills</a></p>
+            <p class="crumb"><a href="#projects">Projects</a></p>
+            <p class="crumb"><a href="#contact-info">Contact</a></p>
+        </nav>
+    </header>
     <section id = 'about-me'>
         <section id="pic-name">
             <img id="me" src="/assests/Pics/me.jpg" alt="Pic of myself"/>
             <h1>Tyler Merritt</h1>
         </section>
         <section id="bio">
-            <h2>Bio</h2>
-            <p>happy days are here again.</p>
+            <h2 id="bio-heading">Bio</h2>
+            <p id="bio-text">happy days are here again.</p>
         </section>
     </section>
     <section id="skills">
-        <h2>Skills</h2>
+        <h2 id="sheading">Skills</h2>
         <section id="diff-skill">
-            <div id="js-box">
+            <div class="skill-box" id="js-box">
                 <img src="/assests/Pics/JS.png"/>
                 <p>JavaScript</p>
             </div>
-            <div id="html-box">
+            <div class="skill-box" id="html-box">
                 <img src="/assests/Pics/htmlpic.png"/>
                 <p>HTML</p>
             </div>
-            <div id="css-box">
+            <div class="skill-box" id="css-box">
                 <img src="/assests/Pics/csspic.png"/>
                 <p>CSS</p>
             </div>
