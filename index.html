@@ -10,9 +10,51 @@
     <header></header>
     <section id = 'about-me'>
         <section id="pic-name">
-            <img src="/assests/me.jpg" alt="Pic of myself"/>
+            <img id="me" src="/assests/Pics/me.jpg" alt="Pic of myself"/>
             <h1>Tyler Merritt</h1>
         </section>
+        <section id="bio">
+            <h2>Bio</h2>
+            <p>happy days are here again.</p>
+        </section>
     </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <section id="diff-skill">
+            <div id="js-box">
+                <img src="/assests/Pics/JS.png"/>
+                <p>JavaScript</p>
+            </div>
+            <div id="html-box">
+                <img src="/assests/Pics/htmlpic.png"/>
+                <p>HTML</p>
+            </div>
+            <div id="css-box">
+                <img src="/assests/Pics/csspic.png"/>
+                <p>CSS</p>
+            </div>
+        </section>
+    </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <section id="dnd-project">
+            <h1>The dnd helper</h1>
+            <video id="dnd-video" onclick="this.play();"
+                width="308" height="288"
+                autobuffer="autobuffer" controls="controls"
+            tabindex="0">
+            <source src="/assests/Videos/Demo.webm">
+            </video>
+            <p>The helpful helper in dnd</p>
+        </section>
+    </section>
+    <footer id="contact-info">
+        <h2>My contact information</h2>
+        <section id="contact-buttons">
+            <button class="contact-button" id="linkedin" onclick="window.location.href=`https://www.linkedin.com/in/tyler-merritt-988708198/`">Linkedin</button>
+            <button class="contact-button" id="gethub" onclick="window.location.href=`https://github.com/tjmer`">Gethub</button>
+            <p>Email</p>
+        </section>
+    </footer>
 </body>
 </html>
