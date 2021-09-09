@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -40,8 +41,13 @@ nav {
 
 #me {
     width: 15rem;
-    margin-top: 6rem;
     border-radius: 5rem;
+}
+
+#my-name {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 #pic-name {
@@ -49,13 +55,15 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    background-color: lightslategray;
+    border-radius: 5rem;
 }
 
 #about-me {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-bottom: 6.5rem;
 }
 
@@ -145,7 +153,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30rem;
+    width: 25rem;
     border-radius: 5rem;
 }
 
@@ -155,5 +163,51 @@ nav {
 }
 
 .project-description {
+    width: 20rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.project-video{
+    transition: all .5s ease-in-out;
+}
+
+.project-video:hover {
+    transform: scale(2.5);
+}
+
+
+#contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    background-color: lightslategray;
+}
+
+#contact-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-btn {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+.email-address {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
