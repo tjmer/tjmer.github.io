@@ -2,11 +2,11 @@
     margin: 0;
 }
 
-/* body {
-    background-image: url('/assests/Pics/Background.png');
+body {
+    background-image: url('https://www.teahub.io/photos/full/271-2719234_free-photo-backgrounds-web-page-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 header {
     height: 5rem;
@@ -40,7 +40,7 @@ nav {
 
 #me {
     width: 15rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
     border-radius: 5rem;
 }
 
@@ -55,21 +55,23 @@ nav {
 #about-me {
     display: flex;
     justify-content: space-evenly;
-    background-color: lightslategray;
-    /* background-image: url('/assests/Pics/Woodback.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
     padding-top: 6rem;
     padding-bottom: 6.5rem;
 }
 
 #bio {
     margin-top: 7rem;
+    background-color: lightslategray;
+    border-radius: 2rem;
+    width: 30rem;
 
 }
 
 #bio-heading {
     font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #bio-text {
@@ -83,14 +85,8 @@ nav {
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 13rem;
-    background-image: url('/assests/Pics/Woodback.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#sheading {
-    font-size: 3.2rem;
-    text-shadow: 2rem 2rem 5rem white;
 }
 
 #diff-skill {
@@ -111,4 +107,53 @@ nav {
     width: 10rem;
     height: 12.5rem;
     box-shadow: .5rem .5rem 8rem thistle;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 13rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    font-size: 3.2rem;
+    background-color: rgb(90,81,102);
+    width: 30rem;
+}
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+/* project containers */
+
+.item-container{
+    background-image: url('/assests/Pics/Background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    border-radius: 5rem;
+}
+
+.item-Title {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.project-description {
+    margin-bottom: 1rem;
 }
