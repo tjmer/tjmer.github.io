@@ -179,6 +179,10 @@ nav {
     font-size: 1.3rem;
 }
 
+.future-ideas-stuff {
+    line-height: 1;
+}
+
 .project-video{
     transition: all .5s ease-in-out;
 }
