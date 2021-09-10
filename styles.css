@@ -95,6 +95,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     padding-left: 1rem;
+    text-shadow: 1px 1px whitesmoke;
 }
 
 #skills {
