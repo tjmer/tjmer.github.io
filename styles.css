@@ -78,7 +78,7 @@ nav {
 #about-me {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 3rem;
+    padding-top: .5rem;
     padding-bottom: 6.5rem;
 }
 
