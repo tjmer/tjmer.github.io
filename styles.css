@@ -29,7 +29,7 @@ header {
     border-radius: 5rem;
     font-size: 3.2rem;
     text-shadow: 0px 0px 10px whitesmoke;
-    background-color: lightslategray;
+    background-color: #858786;
     width: 30rem;
     box-shadow: 2px 2px 3rem whitesmoke;
 }
@@ -74,7 +74,7 @@ nav {
 
 #my-name {
     font-family: fantasy;
-    color: #3773A5;
+    color: #2B6782;
     text-shadow: 2px 1px whitesmoke;
     font-size: 2rem;
     margin-top: 1rem;
@@ -96,6 +96,7 @@ nav {
     justify-content: space-evenly;
     padding-top: .5rem;
     padding-bottom: 6.5rem;
+
 }
 
 #bio {
@@ -112,6 +113,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #2B6782;
+    border-top-left-radius: 1.9rem;
+    border-top-right-radius: 1.9rem;
 }
 
 #bio-text {
